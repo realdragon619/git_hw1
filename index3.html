@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>
+div>span{
+    
+    color:#657e8d;
+    font-size:15px;
+}
+div>a{
+    text-decoration: none;
+    color:#657e8d;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+div{
+    margin-bottom: 10px;   
+}
+input[type=checkbox]:checked+div{
+    display:block;
+}
+.nonebox{
+    display:none;
+}
+</style>    
+<title>자기평가</title>
+</head>    
+<body>
+    <div><a href="index2.html">&lt;뒤로가기</a></div>
+    <form method="POST" action="#">
+        <div>
+            <span>과목</span>    
+            <select>
+                <option value="Object">고급객체</option>
+                <option value="Web">웹프로그래밍</option>
+                <option value="Opensource">공개SW</option>
+                <option value="TeamProject">팀프로젝트</option>
+            </select>
+        </div>
+        <div>
+            <span>졸았는가?</span>    
+            <input type="radio" name="sleep" value="Yes">졸았다
+            <input type="radio" name="sleep" value="No" checked="checked">안졸았다
+        </div>
+        <span>필기할 내용이 있었는가?</span>    
+        <input type="checkbox" name="note" value="yes">
+        <div class="nonebox">
+            <textarea rows="4" cols="50" name="comment"></textarea>
+        </div>
+        <div>
+            <input type="submit" name="submit" value="제출">
+        </div>
+    </form>
+</body>   
+</html>
