@@ -1,4 +1,4 @@
-/* main*/
+/* main.html*/
 a:link {
     text-decoration: none;
     font-weight: bold;
@@ -24,6 +24,23 @@ body{
     width: 980px;
     margin: 0 auto;
 }
+#first, #second, #third{
+    width:650px;
+    height:350px;
+    overflow: hidden;
+    border:0;
+    display:none;
+}
+#third{
+    display:block;
+}
+.select1:hover ~ #first, .select2:hover ~ #second{
+   display:block;    
+}
+.select1:hover ~ #third , .select2:hover ~ #third{
+   display:none;
+}
+
 
 /*  index.html  */
 
@@ -52,6 +69,7 @@ body{
 #intro{
     padding-top: 5px;
     overflow: hidden;
+    
 }
 #intro > img{
     float:left;
@@ -69,6 +87,7 @@ body{
     padding-bottom: 7px;
     
 }
+
 
 
 /*  index1.html  */
