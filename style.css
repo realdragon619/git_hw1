@@ -1,0 +1,124 @@
+/* main*/
+a:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+a:active {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+img{border:0;}
+body{
+    width: 980px;
+    margin: 0 auto;
+}
+
+/*  index.html  */
+
+#navi > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#navi > ul > li{
+    float:left;
+}
+#navi > ul > li > a {
+    display: block;
+    padding: 10px 20px;
+    background: rgb(73,155,234); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(73,155,234,1) 0%, rgba(28,105,206,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(73,155,234,1)), color-stop(100%,rgba(28,105,206,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(73,155,234,1) 0%,rgba(28,105,206,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(73,155,234,1) 0%,rgba(28,105,206,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(73,155,234,1) 0%,rgba(28,105,206,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(73,155,234,1) 0%,rgba(28,105,206,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#1c69ce',GradientType=0 ); /* IE6-9 */
+}
+
+#intro{
+    padding-top: 5px;
+    overflow: hidden;
+}
+#intro > img{
+    float:left;
+}
+#intro > ul {
+    list-style-type: none;
+    margin: 3px;
+    padding: 3px;
+    float: left;
+}
+
+#intro > ul > li {
+    display: block;
+    width: 300px;
+    padding-bottom: 7px;
+    
+}
+
+
+/*  index1.html  */
+
+table, td, th {
+    border: 1px solid black;
+    border-spacing: 0;
+}
+td{
+    width:100px;
+    text-align: center;
+}
+td:first-child{
+    background-color: #ff8833;
+}
+th{
+    background-color: #112233;
+    color:white;
+}
+div>a{
+    text-decoration: none;
+    color:#657e8d;
+    font-weight: bold;
+}
+
+
+
+
+/*  index.html2  */
+div>span{
+    
+    color:#657e8d;
+    font-size:15px;
+}
+div>a{
+    text-decoration: none;
+    color:#657e8d;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+div{
+    margin-bottom: 10px;   
+}
+input[type=checkbox]:checked+div{
+    display:block;
+}
+.nonebox{
+    display:none;
+}
+
+
+
+
