@@ -2,22 +2,23 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-<title>첫번째 페이지</title>
+<title>메인페이지</title>
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="intro.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id="center">
-        <div id="intro">
-        <img src="images/my_picture.jpg" width="200" height="200" alt="myImage"/>
-            <ul>
-                <H2>인적사항</H2>
-                <li>이름:김진용</li>
-                <li>생년월일:1992년 06월 19일</li>
-                <li>고향:포항</li>
-                <li>취미:축구</li>
-                <li>소개:잘부탁드립니다</li>
-            </ul>
-        </div>
+    <div><img src="images/flags_DD_HTML.png" width="140" height="140" alt="logo"/></div>
+    <div id="navi">
+        <ul>
+            <li><a href ="#" >자기소개</a></li>
+            <li><a href ="#" >시간표</a></li>
+            <li><a href ="#" >자기체크</a></li>
+        </ul>
+        <iframe id="first" src="sub_page1.html"></iframe>
+        <iframe id="second" src="sub_page2.html"></iframe>
+        <iframe id="third" src="sub_page3.html"></iframe>
+        
     </div>    
-</body>    
+    </body>    
 </html>
